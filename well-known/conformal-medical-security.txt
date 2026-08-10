@@ -1,0 +1,15 @@
+# security.txt file for https://conformalmedical.com/ - more info: https://securitytxt.org/
+# (required) Contact email address for security issues
+Contact: user@example.com
+
+# (required) Expiration date for the security information herein
+Expiration: 2027-08-09T13:30:58-04:00
+
+# (optional) OpenPGP key:
+Encryption: https://conformalmedical.com/pgp-key.txt
+
+# (optional) Security policy page:
+Policy: https://conformalmedical.com/security-policy
+
+# (optional) Security acknowledgements page:
+Acknowledgements: https://conformalmedical.com/hall-of-fame

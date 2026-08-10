@@ -1,0 +1,47 @@
+generated: '2026-08-09'
+method: probed
+source: https://conformalmedical.com/.well-known/
+host: https://conformalmedical.com
+documents:
+- path: /.well-known/security.txt
+  status: 200
+  content_type: text/plain; charset=utf-8
+  file: conformal-medical-security.txt
+  valid: false
+  placeholder: true
+  note: >-
+    Served, RFC 9116-shaped, but a CMS template default rather than a real disclosure
+    program. Contact is the literal placeholder `user@example.com`; the Policy
+    (/security-policy), Acknowledgements (/hall-of-fame) and Encryption
+    (/pgp-key.txt) URLs it advertises all return 404; the Expiration is exactly one
+    year from the fetch date, i.e. rolling and machine-generated. No `Security` /
+    `VulnerabilityDisclosure` pointer was wired from this file — there is no reachable
+    contact or policy behind it.
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+- path: /.well-known/agent-card.json
+  status: 404
+- path: /.well-known/agent.json
+  status: 404
+control:
+  path: /.well-known/zz-control-11862
+  status: 404
+  note: >-
+    Random control path under /.well-known/ returns a hard 404, so the single 200 above
+    is a real document and not a soft-404 / SPA catch-all.
+advertised_links:
+- url: https://conformalmedical.com/security-policy
+  status: 404
+- url: https://conformalmedical.com/hall-of-fame
+  status: 404
+- url: https://conformalmedical.com/pgp-key.txt
+  status: 404
+x-evidence:
+  fetched: '2026-08-09'
+  user_agent: APIEvangelistBot/1.0

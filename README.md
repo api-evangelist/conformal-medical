@@ -42,5 +42,16 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Conformal is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
+Conformal Medical, Inc. is a Nashua, New Hampshire medical device company developing the CLAAS
+(Conformal Left Atrial Appendage Seal) and next-generation CLAAS AcuFORM left atrial appendage
+occlusion (LAAO) systems — foam-based implants intended to seal the left atrial appendage and reduce
+stroke risk in patients with non-valvular atrial fibrillation. W. L. Gore & Associates completed its
+acquisition of Conformal Medical on 2026-02-19.
+
+**No API surface.** Conformal Medical is a regulated medical device manufacturer, not a software
+vendor. It operates no developer program and publishes no public API, SDK, webhook, or
+machine-readable specification. See the `x-coverage` block in `apis.yml` for the probed evidence.
+
+- https://conformalmedical.com/
+- https://conformalmedical.com/company/news
 - https://forgeglobal.com/conformal-medical_stock/
