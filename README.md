@@ -1,4 +1,4 @@
-# Conformal
+# Conformal Medical
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,16 +64,82 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Conformal Medical, Inc. is a Nashua, New Hampshire medical device company developing the CLAAS
-(Conformal Left Atrial Appendage Seal) and next-generation CLAAS AcuFORM left atrial appendage
-occlusion (LAAO) systems — foam-based implants intended to seal the left atrial appendage and reduce
-stroke risk in patients with non-valvular atrial fibrillation. W. L. Gore & Associates completed its
-acquisition of Conformal Medical on 2026-02-19.
+Conformal Medical, Inc. is a Nashua, New Hampshire medical device company developing the CLAAS (Conformal Left Atrial Appendage Seal) and next-generation CLAAS AcuFORM left atrial appendage occlusion (LAAO) systems, foam-based implants intended to seal the left atrial appendage and reduce stroke risk in patients with non-valvular atrial fibrillation without requiring pre-procedure CT sizing. The company runs the CONFORM pivotal IDE trial and the GLACE study, and publishes a public marketing site segmented for patients, physicians and company/investor audiences. W. L. Gore & Associates completed its acquisition of Conformal Medical on 2026-02-19. Conformal Medical is a regulated medical device manufacturer, not a software vendor: it operates no developer program, publishes no public API, SDK, webhook or machine-readable specification, and its only software artifacts are clinical-trial companion mobile apps for enrolled sites.
 
-**No API surface.** Conformal Medical is a regulated medical device manufacturer, not a software
-vendor. It operates no developer program and publishes no public API, SDK, webhook, or
-machine-readable specification. See the `x-coverage` block in `apis.yml` for the probed evidence.
+**Areas:** Company · Medical Devices · Healthcare · Cardiology · Medical Technology · Clinical Trials · Stroke Prevention
 
-- https://conformalmedical.com/
-- https://conformalmedical.com/company/news
-- https://forgeglobal.com/conformal-medical_stock/
+## Conformal Medical on APIs.io
+
+Everything profiled for Conformal Medical is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/conformal-medical/](https://apis.io/providers/conformal-medical/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Conformal Medical Domain Security](https://apis.io/security/conformal-medical/conformal-medical-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://conformalmedical.com/)
+- [Support](https://conformalmedical.com/company/contact)
+- [Terms of service](https://conformalmedical.com/terms-of-use)
+- [Privacy policy](https://conformalmedical.com/privacy-policy-2)
+
+## API Evangelist rating
+
+**Kin Score 9.6** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 45.5 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 4.8 |
+| Access clarity | 21.1 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 10.9** — Health
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/conformal-medical/](https://apis.io/providers/conformal-medical/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Conformal Medical: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/conformal-medical/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
